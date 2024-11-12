@@ -1,0 +1,11 @@
+10) semantic elements are for SEO and readability purpose.it wont create any different in the  UI
+popular semantic elements are header,main,footer,section,arrticle,aside,nav etc..,
+indirectly  these semantic elements will be used to make google or any search engine understand ur code
+semantic elements are not having any purpose in the UI main purpose is  readability and SEO  so that when you write  the code it will be easy for to read search engines
+
+
+classes and ID:classes and Id's are used to identify the elements but two elements might have same classname or one element might have two class names
+ids are always unique and only one for an element
+
+
+***if someone ask you whats ur weakness:i m a hord worker some times i skip a meal while working on it

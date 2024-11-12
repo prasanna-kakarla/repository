@@ -1,0 +1,41 @@
+11)forms are ussed to collect user's data
+forms have two attributes , action and method
+action is the file/path to which we submit details 
+method----> how data is transferred
+
+data is entered through input elements.
+input element is a self closing inline element and it uses four attributes
+i. type  -- it defines type of the input element
+ii. name -- name is a variable which holds value
+iii. value -- it holds actual value
+vi. placeholder -- dummy text placed until actual value enters
+v. id-- id is used to uniquely identify the input type
+
+we can also use labels to label every input elements.
+labels uses for attribute which connects to id attribute in input element
+
+different types of inputs:
+text,email,password, date,time,datetime-local,url,file,image,hidden,color, week,month,range,search,tel,number
+
+radio: radio button/inputs are used when we need to select single choice 
+we can use type radio with valid labels but names of similar radios should be same
+
+checkbox : checkboxes are used when we need to select multiple choices
+we can use type checkbox with valid labels.similar checkboxes should be same
+
+select : select is used to create drop downs which can select single or multiple options
+in select, we use options for each option
+
+Textarea :
+submit:
+reset:
+ 
+form-validation:
+we can use form-validation
+readonly:we cant overwrite readonly input types 
+disabled: we can make inputs disabled on chioce
+required:we can make some inputs required
+maxlength:to specify maximum no.of characters
+minlength:to specify minimum no.of characters
+min/max:to spicify maximum/minimum value
+pattern:uses a regular expression to specify certain email/password patterns

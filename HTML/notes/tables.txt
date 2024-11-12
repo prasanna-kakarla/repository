@@ -1,0 +1,10 @@
+9)tables are used to represent data in simple key using rows and colmns
+ horizontal line of data is called row
+ vertical line of data is called column
+ 
+ table in html comprises <table> tag
+        tr--->table row
+        th or td---> table head or table data 
+        caption ----> heading/caption of the table 
+        rowspan ----> combine rows 
+        colspan -----> combine columns

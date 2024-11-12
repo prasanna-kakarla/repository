@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+}
+/* create simple three buttons and give background-color to them using inline,internal and external */
+
+button{
+    
+    height: 50px;
+    width: 200;
+}
+.abc{
+    background-color: red;
+}
+#xyz{
+    background-color: blue;
+}

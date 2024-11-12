@@ -1,0 +1,26 @@
+css means cascading style style sheets.css is used for styling/design/layout of page
+how do we connect css to html?
+there are three ways
+1.inline css: we can assign styling to certaiin elements in their own line called inline css
+<p style="background-color:black;">hello world </p>
+2.internal css: we can use style as a element in the headers end
+<style>
+p{ color:red; }
+</style>
+3.external css:we can write css as a seperate file and connect them through the link
+
+<link rel="stylesheet" href="path">
+
+
+basic selectors:
+There are so many selectors, basic selectors are tagname,id ,class name
+
+tagname:we can tagnames directly,it applies to all elements with that tagname 
+
+classname:classnames are identified by classnames and these properties applies to all elements with specific class name
+
+idname:id's are identified by # and these properties applied by only element that id
+
+id > classname > tagname
+
+inline > internal > external

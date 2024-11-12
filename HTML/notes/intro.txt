@@ -1,0 +1,123 @@
+1)web development: Frontend of the website/web app/mobile apps deal with appearence and user experience
+A website is collection of web pages
+ 
+2)Frontend of a site can be done by html,css,js
+HTML: structure of the Pages
+CSS: layout of the pages
+Js: function of the page
+
+HTML started by Tim Berner's LEE(WWW founder) in 1989-1992. HTML stands for HyperText Markup Laguage.current version of html is html5.
+
+In html, Everything is defined by tags. tags represent context and there are 2 types. open tag and  close tag
+<tagname>--open tag
+</tagname>-- close tag
+
+whole html code will be between <html> and </html>
+html contains 2 child tags.., head and <body>
+        
+In html comments are written as <!-- comment -->
+
+3)headings: are used to specify important terms.There are six headings available in html. all are bold and differed by size.ex:h1,h2,h3,h4,h5,h6
+
+4)paragraphs:  are by default font-size:16px and it represents normal paragraphs using p tag. 
+        lorem,lorem20 are used to generate dummy text of 20 words 
+
+5)anchor tag: 'a' tag is used to link one web page to another or to navigate from one web page to another
+
+href: take the place from user and respond the result to anchor tag
+
+ target="_blank" is used to open the link in new tab
+
+ title:represents title of tag/element as a popover
+
+6)img:it is used to assign images in html pages
+
+ 7)eg for lists: todo list ,grocery list, contact list, marks list, country list ,attandence lists
+
+ lists are actually divided as three types
+ 1.ordered lists
+ 2.unordered lists
+ 3.definition list
+
+
+ 8)tags vs elements:
+ tags are either open or close
+ eg: <h1>---h1 open tag,</h1>--close tag
+ <h1>abcd</h1>---- h1 element
+ element ===> open tag + conent + close 
+
+ self- closing tags or empty elements or void elements will not have any closing tag <br> </br> <img src="" alt="" />
+
+ block elements vs inline elements:
+ block elements doesnt allows the other elements beside them
+ inline elements allows the other elements beside them
+ block elements also cover height/width and inline doesnt
+ eg:popular  block element is div 
+ popular inline element is span is span 
+
+
+
+ 9)tables are used to represent data in simple key using rows and colmns
+ horizontal line of data is called row
+ vertical line of data is called column
+ 
+ table in html comprises <table> tag
+        tr--->table row
+        th or td---> table head or table data 
+        caption ----> heading/caption of the table 
+        rowspan ----> combine rows 
+        colspan -----> combine columns
+
+10) semantic elements are for SEO and readability purpose.it wont create any different in the  UI
+popular semantic elements are header,main,footer,section,arrticle,aside,nav etc..,
+indirectly  these semantic elements will be used to make google or any search engine understand ur code
+semantic elements are not having any purpose in the UI main purpose is  readability and SEO  so that when you write  the code it will be easy for to read search engines
+
+
+classes and ID:classes and Id's are used to identify the elements but two elements might have same classname or one element might have two class names
+ids are always unique and only one for an element
+
+
+***if someone ask you whats ur weakness:i m a hord worker some times i skip a meal while working on it
+
+11)forms are ussed to collect user's data
+forms have two attributes , action and method
+action is the file/path to which we submit details 
+method----> how data is transferred
+
+data is entered through input elements.
+input element is a self closing inline element and it uses four attributes
+i. type  -- it defines type of the input element
+ii. name -- name is a variable which holds value
+iii. value -- it holds actual value
+vi. placeholder -- dummy text placed until actual value enters
+v. id-- id is used to uniquely identify the input type
+
+we can also use labels to label every input elements.
+labels uses for attribute which connects to id attribute in input element
+
+different types of inputs:
+text,email,password, date,time,datetime-local,url,file,image,hidden,color, week,month,range,search,tel,number
+
+radio: radio button/inputs are used when we need to select single choice 
+we can use type radio with valid labels but names of similar radios should be same
+
+checkbox : checkboxes are used when we need to select multiple choices
+we can use type checkbox with valid labels.similar checkboxes should be same
+
+select : select is used to create drop downs which can select single or multiple options
+in select, we use options for each option
+
+Textarea :
+submit:
+reset:
+ 
+form-validation:
+we can use form-validation
+readonly:we cant overwrite readonly input types 
+disabled: we can make inputs disabled on chioce
+required:we can make some inputs required
+maxlength:to specify maximum no.of characters
+minlength:to specify minimum no.of characters
+min/max:to spicify maximum/minimum value
+pattern:uses a regular expression to specify certain email/password patterns

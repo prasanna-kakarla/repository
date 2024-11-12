@@ -1,0 +1,39 @@
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>somthing1</h1>
+<h2>somthing2</h2>
+<h3>somthing3</h3>
+<h4>somthing4</h4>
+<h5>somthing5</h5>
+<h6>somthing6</h6>
+<p>this is my paragraph</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, vitae.</p>
+</body>
+</html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> introduction about myself</title>
+</head>
+<body>
+    <a href="https:www.google.com" target="_blank" title="google website link">click here</a>
+    <h1>about myself</h1>
+    <p>hi sir i m prasanna i completed my graduation in the specialization of electronics and communication engineering with aggregate percentage 74.08
+        now i m looking for software job. if you give one chance to me i will give my best to your organization
+    </p>
+   <p><h3>headings: are used to specify important terms.There are six headings available in html. all are bold and differed by size.ex:h1,h2,h3,h4,h5,h6</h3></p>
+    <h3>paragraphs are by default font-size:16px and it represents normal paragraphs using p tag. 
+        lorem,lorem20 are used to generate dummy text of 20 words <br><br><br> 
+        anchor tag: 'a' tag is used to link one web page to another or to navigate from one web page to another
+    </h3>
+</body>
+</html>
